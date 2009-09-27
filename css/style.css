@@ -1,0 +1,65 @@
+/**
+ * WikiLink Wordpress plugin
+ *
+ * @link		http://www.coders.me/
+ * @copyright	2009-2010 Eduardo Daniel Sada. All Rights Reserved.
+ *
+ */
+
+.wikispan
+{
+  font-weight:bold;
+  cursor:help;
+  border-bottom:1px dotted #eee;
+}
+
+.wiki
+{
+  text-align:left;
+}
+
+.wiki h1
+{
+  background:#C4D5E3 url(../images/wikiTitle.png) no-repeat scroll 0% 50%;
+  padding:5px 0px 5px 80px;
+  margin: 0 0 8px 0;
+  border:1px solid #C4D5E3;
+  clear: both; 
+  font-weight:bold;
+  font-size: 12px;
+  color: #000;
+  text-align:left;
+}
+
+.wiki p
+{
+  font-family:Verdana,Arial,Helvetica,sans-serif;
+  font-size:0.8em;
+  font-weight:normal;
+  color:#000;
+  margin:0;
+  padding:0 0 8px 0;
+  line-height:1.2em;
+}
+
+.wiki .thumbcaption
+{
+  font-size:10px;
+}
+
+.wiki .thumbinner
+{
+  background:#D6E6FE;
+  margin:4px auto;
+  text-align:center;
+  padding:5px;
+  border:dashed #CCCCCC 1px;
+}
+
+.wikiloader
+{
+  width: 54px;
+  height: 55px;
+  background:url(../images/loader.gif) no-repeat;
+  margin: auto;
+}
